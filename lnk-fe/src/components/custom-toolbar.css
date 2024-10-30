@@ -1,0 +1,38 @@
+.custom-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .toolbar-navigation,
+  .toolbar-view-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .toolbar-navigation button,
+  .toolbar-view-options button {
+    padding: 8px 12px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toolbar-navigation button:hover,
+  .toolbar-view-options button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .toolbar-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
